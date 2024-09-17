@@ -29,6 +29,5 @@ Para configurar o ambiente de desenvolvimento, siga os passos abaixo:
 1. **Clone o Repositório**
 
    ```bash
-   git clone https://github.com/CarlosAlves84/Fantasy-Game-Completo.git
+   git clone https://github.com/CarlosAlves84/fantasy-Game-Cartola-FC.git
    cd nome-do-repositorio
-

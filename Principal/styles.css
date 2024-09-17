@@ -1,0 +1,248 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: 1.25rem;
+    color: #2a9d8f;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 9.375rem;
+    height: auto;
+    margin-left: 0.625rem;
+}
+
+hr {
+    margin: 1.25rem 0;
+    border: 0;
+    border-top: 0.125 solid #e76f51;
+}
+
+blockquote {
+    margin: 1,25rem 0;
+    padding-left: 20px;
+    border-left: 0.313rem solid #2a9d8f;
+    font-style: italic;
+}
+
+p, ul, ol {
+    margin-bottom: 1.25rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #264653;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+
+.video-container {
+    flex: 1 1 18.75rem;
+    text-align: center;
+}
+
+.ranking-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.25rem 0;
+}
+
+.center-content {
+    text-align: center;
+}
+
+a {
+    color: #e76f51;
+}
+
+a:hover {
+    color: #f4a261;
+}
+
+small {
+    display: block;
+    margin-top: 0.625rem;
+}
+
+/* Centralizar o conteúdo do corpo da página */
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo suave */
+    margin: 0;
+}
+
+ol {
+    list-style-position: inside; /* Mantém a numeração dentro da área de conteúdo */
+    padding: 0;
+    margin: 0 auto; /* Centraliza a lista horizontalmente */
+    text-align: center; /* Centraliza o texto dos itens */
+    max-width: 31.25rem; /* Opcional: define uma largura máxima para a lista */
+}
+
+/* Estilo adicional opcional */
+ol li {
+    margin-bottom: 0.625; /* Espaçamento entre os itens da lista */
+}
+ 
+
+src {
+    max-width: 100%; /* Ajusta a imagem para que não ultrapasse a largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Cor de fundo opcional */
+}
+
+/* Define o estilo para cada matches-container */
+.matches-container {
+    flex: 1 1 calc(33% - ); /* Faz com que cada container ocupe um terço do espaço disponível, ajustado pelo gap */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo do width */
+    border: 0.063 solid #ddd;
+    padding: 0.625rem;
+    margin-bottom: 1.25rem; /* Espaço abaixo de cada container */
+    background-color: #f9f9f9;
+}
+/* Define o estilo para cada match */
+.match {
+    border: 0.063 solid #ddd;
+    padding: 0.625rem;
+    margin-bottom: 0.625rem; /* Espaço entre as partidas */
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column; /* Mantém os detalhes da partida na vertical */
+}
+.match:last-child {
+    border-bottom: none;
+}
+
+.match-date {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.match-time {
+    font-size: 0.7em;
+    color: #777;
+}
+
+/* Define o estilo para os detalhes da partida */
+.match-details {
+    display: flex;
+    justify-content: space-between; /* Espaça os times de forma igual */
+    margin: 0.625rem 0;
+}
+
+/* Define o estilo para os times */
+.team {
+    font-weight: bold;
+    color: #555;
+}
+
+.fique-por-dentro {
+    font-size: 0.9em;
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+/* Define o estilo do link de mais jogos */
+.more-games {
+    text-align: center;
+    font-size: 1.2em;
+    color: #007bff;
+    cursor: pointer;
+    margin-top: 0.625rem;
+}
+
+
+.classificacao {
+    width: 90%;
+    max-width: 50rem;
+    margin: 1.25rem auto;
+    padding: 1.25rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.25rem 0;
+}
+
+thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+th, td {
+    padding: 0.625rem;
+    text-align: center;
+    border-bottom: 0.063 solid #ddd;
+}
+
+th {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td {
+    font-size: 1em;
+}
